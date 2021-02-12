@@ -1,0 +1,72 @@
+
+body {
+    width: auto;
+    height: auto;
+    margin: 10px; 
+    display:flexbox;
+    flex-wrap: wrap;
+
+}
+
+
+.nav-item:hover {
+    
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+
+
+.container{
+           
+           width: auto;
+           height: auto;
+           margin: 80px; 
+           padding:  100px; 
+           text-align: center;
+           display:flexbox;
+           flex-wrap: wrap;
+           
+}
+
+.Sbar {
+    width: 500px;
+    height: 40px;
+    border-radius: 40px;
+    background: transparent;
+    border-color: #adacac;
+    border-width:thin;
+    
+}
+
+
+.buttons {
+    width: auto;
+    height: auto;
+    margin: 20px; 
+    padding:  10px; 
+
+}
+
+#lucky, #gsearch {
+
+    border-color:gray;
+    
+    width: 150px;
+    height: 40px;
+    border:none;
+    color: #716f6f;
+
+}
+
+#lucky:hover{
+    color: black;
+   
+}
+
+#gsearch:hover{
+    color: black;
+    box-shadow:inset;
+   
+   
+}
